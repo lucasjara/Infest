@@ -6,6 +6,9 @@
  * Time: 22:50
  */
  ?>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v4.0&appId=175772568581&autoLogAppEvents=1"></script>
+
 <!-- Page Preloder -->
 <div id="preloder">
  <div class="loader"></div>
@@ -45,13 +48,22 @@
 <!-- Hero section -->
 <section class="hero-section overflow-hidden">
  <div class="hero-slider owl-carousel">
-  <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" id="id_contenido" data-setbg="<?=base_url('public/img/fondo.jpg') ?>" >
-   <!--<div class="container">
-    <h2><em>Infest</em></h2>
-    <p><em>El evento de Tecnología y Videojuegos más grande de Temuco ya es una realidad</em></p>
-    <a href="#" class="site-btn">Participar<img src="<?=base_url('public/endgame/img/icons/double-arrow.png') ?>" alt="#"/></a>
-   </div>
+  <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" id="id_contenido" data-setbg="<?=base_url('public/img/fondo_libre.jpg') ?>" >
+   <div class="container">
+    <h2><img src="<?=base_url('public/img/logo_infest_recor.png') ?>" height="300" width="100"></h2>
+    <p class="text-white" style="margin-bottom: 0px;">
+        EL EVENTO DE TECNOLOGIA Y VIDEOJUEGOS MAS GRANDE DEL<br>
+        SUR DE CHILE VUELVE EN UNA CUARTA EDICION
+        <br>
+        <br>
+    05 Y 06 DE OCTUBRE <br>
+    INACAP TEMUCO 12:00 HRS <br>
+       </p>
+       <h3 style="font-size: 60px;" class="text-white">ENTRADA LIBERADA</h3>
+   <!-- <a href="#" class="site-btn">Participar<img src="<?=base_url('public/endgame/img/icons/double-arrow.png') ?>" alt="#"/></a>
    -->
+   </div>
+
   </div>
   <!--<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="<?=base_url('public/endgame/img/slider-bg-2.jpg') ?>">
    <div class="container">
@@ -73,9 +85,9 @@
    <div class="col-md-4">
     <div class="intro-text-box text-box text-white">
      <div class="top-meta">Organizador</div>
-        <img src="<?=base_url('public/img/icons/double-arrow.png') ?>" alt="" height="20%;">
+        <img src="<?=base_url('public/img/icons/double-arrow.png') ?>" alt="" height="100">
      <div class="top-meta">Auspiciador</div>
-        <img src="<?=base_url('public/img/icons/double-arrow.png') ?>" alt="" height="20%;">
+        <img src="<?=base_url('public/img/icons/double-arrow.png') ?>" alt="" height="100">
     </div>
    </div>
    <div class="col-md-4">
@@ -90,16 +102,16 @@
             </ol>
             <div class="carousel-inner" style="background-color: white;border-radius: 10px;">
                 <div class="carousel-item active">
-                    <img height="200" src="<?=base_url('public/img/winpy.png') ?>">
+                    <img height="200" src="<?=base_url('public/img/patrocinadores/winpy.png') ?>">
                 </div>
                 <div class="carousel-item">
-                    <img height="200" src="<?=base_url('public/img/crossxgame.jpg') ?>" alt="Second slide">
+                    <img height="200" src="<?=base_url('public/img/patrocinadores/crossxgame.jpg') ?>" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img height="200" src="<?=base_url('public/img/hostales_temuco.png') ?>" alt="Third slide">
+                    <img height="200" src="<?=base_url('public/img/patrocinadores/hostales_temuco.png') ?>" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img height="200" src="<?=base_url('public/img/top8.png') ?>" alt="Third slide">
+                    <img height="200" src="<?=base_url('public/img/patrocinadores/top8.png') ?>" alt="Third slide">
                 </div>
             </div>
         </div>
@@ -117,16 +129,16 @@
             </ol>
             <div class="carousel-inner" style="background-color: white;border-radius: 10px;">
                 <div class="carousel-item active">
-                    <img height="200" src="<?=base_url('public/img/xpg.png') ?>">
+                    <img height="200" src="<?=base_url('public/img/colaboradores/xpg.png') ?>">
                 </div>
                 <div class="carousel-item">
-                    <img height="200" src="<?=base_url('public/img/redragon.png') ?>">
+                    <img height="200" src="<?=base_url('public/img/colaboradores/redragon.png') ?>">
                 </div>
                 <div class="carousel-item">
-                    <img height="200" src="<?=base_url('public/img/cougar.png') ?>">
+                    <img height="200" src="<?=base_url('public/img/colaboradores/cougar.png') ?>">
                 </div>
                 <div class="carousel-item">
-                    <img height="200" src="<?=base_url('public/img/ckeck_and_play.png') ?>">
+                    <img height="200" src="<?=base_url('public/img/colaboradores/ckeck_and_play.png') ?>">
                 </div>
             </div>
         </div>
@@ -148,56 +160,17 @@
 <section class="blog-section spad">
  <div class="container">
   <div class="row">
-   <div class="col-xl-9 col-lg-8 col-md-7">
+   <div class="col-xl-12 col-lg-12 col-md-12">
     <div class="section-title text-white">
-     <h2>Ultimas Noticias</h2>
-    </div>
-    <ul class="blog-filter">
-     <li><a href="#">Racing</a></li>
-     <li><a href="#">Shooters</a></li>
-     <li><a href="#">Strategy</a></li>
-     <li><a href="#">Online</a></li>
-    </ul>
-    <!-- Blog item -->
-    <div class="blog-item">
-     <div class="blog-thumb">
-      <img src="<?=base_url('public/endgame/img/blog/1.jpg') ?>" alt="">
-     </div>
-     <div class="blog-text text-box text-white">
-      <div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
-      <h3>The best online game is out now!</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consecte-tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
-      <a href="#" class="read-more">Read More  <img src="<?=base_url('public/endgame/img/icons/double-arrow.png') ?>" alt="#"/></a>
-     </div>
+     <h2>Ultimas Publicaciones</h2>
+
     </div>
     <!-- Blog item -->
     <div class="blog-item">
-     <div class="blog-thumb">
-      <img src="<?=base_url('public/endgame/img/blog/2.jpg') ?>" alt="">
-     </div>
-     <div class="blog-text text-box text-white">
-      <div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
-      <h3>The best online game is out now!</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consecte-tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
-      <a href="#" class="read-more">Read More  <img src="<?=base_url('public/endgame/img/icons/double-arrow.png') ?>" alt="#"/></a>
-     </div>
-    </div>
-    <!-- Blog item -->
-    <div class="blog-item">
-     <div class="blog-thumb">
-      <img src="<?=base_url('public/endgame/img/blog/3.jpg') ?>" alt="">
-     </div>
-     <div class="blog-text text-box text-white">
-      <div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
-      <h3>The best online game is out now!</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consecte-tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
-      <a href="#" class="read-more">Read More  <img src="<?=base_url('public/endgame/img/icons/double-arrow.png') ?>" alt="#"/></a>
-     </div>
+        <!-- SnapWidget -->
+        <iframe src="https://snapwidget.com/embed/727403" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; height:330px"></iframe>
     </div>
    </div>
-   <div class="col-xl-3 col-lg-4 col-md-5 sidebar">
-
-  </div>
  </div>
 </section>
 <!-- Blog section end -->
@@ -205,7 +178,7 @@
 
 <!-- Intro section -->
 <section class="intro-video-section set-bg d-flex align-items-end " data-setbg="<?=base_url('public/endgame/img/promo-bg.jpg') ?>">
- <a href="https://www.youtube.com/watch?v=w1Cm2laMXZ4" class="video-play-btn video-popup"><img src="<?=base_url('public/endgame/img/icons/solid-right-arrow.png') ?>" alt="#"></a>
+ <<a href="https://www.youtube.com/watch?v=w1Cm2laMXZ4" class="video-play-btn video-popup"><img src="<?=base_url('public/endgame/img/icons/solid-right-arrow.png') ?>" alt="#"></a>
  <div class="container">
   <div class="video-text">
    <h2>Infest 2018</h2>
