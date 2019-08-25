@@ -9,4 +9,3 @@ Tecnologias
 *******************
 
 Codeigniter Version 3.1.10.
-PHP Version 7
