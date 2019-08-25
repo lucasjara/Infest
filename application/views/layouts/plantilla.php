@@ -42,9 +42,10 @@
 
 </head>
 <body>
+<script src="<?=base_url('public/endgame/js/jquery-3.2.1.min.js') ?>"></script>
 <?php echo $content_for_layout; ?>
 <!--====== Javascripts & Jquery ======-->
-<script src="<?=base_url('public/endgame/js/jquery-3.2.1.min.js') ?>"></script>
+
 <script src="<?=base_url('public/endgame/js/bootstrap.min.js') ?>"></script>
 <script src="<?=base_url('public/endgame/js/jquery.slicknav.min.js') ?>"></script>
 <script src="<?=base_url('public/endgame/js/owl.carousel.min.js') ?>"></script>

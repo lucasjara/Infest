@@ -15,33 +15,26 @@
 <header class="header-section">
  <div class="header-warp">
   <div class="header-social d-flex justify-content-end">
-   <p>Follow us:</p>
-   <a href="#"><i class="fa fa-pinterest"></i></a>
+   <p>Siguenos:</p>
    <a href="#"><i class="fa fa-facebook"></i></a>
-   <a href="#"><i class="fa fa-twitter"></i></a>
-   <a href="#"><i class="fa fa-dribbble"></i></a>
-   <a href="#"><i class="fa fa-behance"></i></a>
+   <a href="#"><i class="fa fa-instagram"></i></a>
   </div>
   <div class="header-bar-warp d-flex">
    <!-- site logo -->
-   <a href="home.html" class="site-logo">
-    <img src="<?=base_url('public/endgame/img/logo.png') ?>" alt="">
+   <a href="home.html" class="site-logo" style="margin-top: -1%;">
+    <img src="<?=base_url('public/img/logon.png') ?>" alt="">
    </a>
    <nav class="top-nav-area w-100">
     <div class="user-panel">
-     <a href="">Login</a> / <a href="">Register</a>
+     <!--<a href="">Login</a><a href="">Register</a> -->
     </div>
     <!-- Menu -->
     <ul class="main-menu primary-menu">
-     <li><a href="home.html">Home</a></li>
-     <li><a href="games.html">Games</a>
-      <ul class="sub-menu">
-       <li><a href="game-single.html">Game Singel</a></li>
-      </ul>
-     </li>
-     <li><a href="review.html">Reviews</a></li>
-     <li><a href="blog.html">News</a></li>
-     <li><a href="contact.html">Contact</a></li>
+     <li><a href="">Inicio</a></li>
+     <li><a href="">Torneos</a></li>
+     <li><a href="">Patrocinadores</a></li>
+     <li><a href="">Colaboradores</a></li>
+     <li><a href="">Invitados</a></li>
     </ul>
    </nav>
   </div>
@@ -52,20 +45,22 @@
 <!-- Hero section -->
 <section class="hero-section overflow-hidden">
  <div class="hero-slider owl-carousel">
-  <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" id="id_contenido" data-setbg="<?=base_url('public/endgame/img/slider-bg-1.jpg') ?>" >
+  <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" id="id_contenido" data-setbg="<?=base_url('public/img/fondo.jpg') ?>" >
+   <!--<div class="container">
+    <h2><em>Infest</em></h2>
+    <p><em>El evento de Tecnología y Videojuegos más grande de Temuco ya es una realidad</em></p>
+    <a href="#" class="site-btn">Participar<img src="<?=base_url('public/endgame/img/icons/double-arrow.png') ?>" alt="#"/></a>
+   </div>
+   -->
+  </div>
+  <!--<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="<?=base_url('public/endgame/img/slider-bg-2.jpg') ?>">
    <div class="container">
     <h2>Game on!</h2>
     <p>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor,<br>sit amet elementum lorem. Ut cursus tempor turpis.</p>
     <a href="#" class="site-btn">Read More  <img src="<?=base_url('public/endgame/img/icons/double-arrow.png') ?>" alt="#"/></a>
    </div>
   </div>
-  <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="<?=base_url('public/endgame/img/slider-bg-2.jpg') ?>">
-   <div class="container">
-    <h2>Game on!</h2>
-    <p>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor,<br>sit amet elementum lorem. Ut cursus tempor turpis.</p>
-    <a href="#" class="site-btn">Read More  <img src="<?=base_url('public/endgame/img/icons/double-arrow.png') ?>" alt="#"/></a>
-   </div>
-  </div>
+  -->
  </div>
 </section>
 <!-- Hero section end-->
@@ -74,36 +69,80 @@
 <!-- Intro section -->
 <section class="intro-section">
  <div class="container">
-  <div class="row">
+  <div class="row" style="text-align: center;">
    <div class="col-md-4">
     <div class="intro-text-box text-box text-white">
-     <div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
-     <h3>The best online game is out now!</h3>
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida....</p>
-     <a href="#" class="read-more">Read More  <img src="<?=base_url('public/endgame/img/icons/double-arrow.png') ?>" alt="#"/></a>
+     <div class="top-meta">Organizador</div>
+        <img src="<?=base_url('public/img/icons/double-arrow.png') ?>" alt="" height="20%;">
+     <div class="top-meta">Auspiciador</div>
+        <img src="<?=base_url('public/img/icons/double-arrow.png') ?>" alt="" height="20%;">
     </div>
    </div>
    <div class="col-md-4">
     <div class="intro-text-box text-box text-white">
-     <div class="top-meta">11.11.18  /  in <a href="">Playstation</a></div>
-     <h3>Top 5 best games in november</h3>
-     <p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum  labore suspendisse ultrices gravida....</p>
-     <a href="#" class="read-more">Read More  <img src="<?=base_url('public/endgame/img/icons/double-arrow.png') ?>" alt="#"/></a>
+     <div class="top-meta">Patrocinadores</div>
+        <div id="carouselExampleIndicators" class="carousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" style="background-color: white;border-radius: 10px;">
+                <div class="carousel-item active">
+                    <img height="200" src="<?=base_url('public/img/winpy.png') ?>">
+                </div>
+                <div class="carousel-item">
+                    <img height="200" src="<?=base_url('public/img/crossxgame.jpg') ?>" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img height="200" src="<?=base_url('public/img/hostales_temuco.png') ?>" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img height="200" src="<?=base_url('public/img/top8.png') ?>" alt="Third slide">
+                </div>
+            </div>
+        </div>
     </div>
    </div>
    <div class="col-md-4">
     <div class="intro-text-box text-box text-white">
-     <div class="top-meta">11.11.18  /  in <a href="">Reviews</a></div>
-     <h3>Get this game at a promo price</h3>
-     <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida ncididunt ut labore ....</p>
-     <a href="#" class="read-more">Read More  <img src="<?=base_url('public/endgame/img/icons/double-arrow.png') ?>" alt="#"/></a>
+     <div class="top-meta">Colaboradores</div>
+        <div id="carouselExampleIndicators2" class="carousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" style="background-color: white;border-radius: 10px;">
+                <div class="carousel-item active">
+                    <img height="200" src="<?=base_url('public/img/xpg.png') ?>">
+                </div>
+                <div class="carousel-item">
+                    <img height="200" src="<?=base_url('public/img/redragon.png') ?>">
+                </div>
+                <div class="carousel-item">
+                    <img height="200" src="<?=base_url('public/img/cougar.png') ?>">
+                </div>
+                <div class="carousel-item">
+                    <img height="200" src="<?=base_url('public/img/ckeck_and_play.png') ?>">
+                </div>
+            </div>
+        </div>
     </div>
    </div>
   </div>
  </div>
 </section>
 <!-- Intro section end -->
-
+<script>
+    $ (document).ready(function () {
+        $('.carousel').carousel({
+            interval: 2000
+        });
+    });
+</script>
 
 <!-- Blog section -->
 <section class="blog-section spad">
@@ -111,7 +150,7 @@
   <div class="row">
    <div class="col-xl-9 col-lg-8 col-md-7">
     <div class="section-title text-white">
-     <h2>Latest News</h2>
+     <h2>Ultimas Noticias</h2>
     </div>
     <ul class="blog-filter">
      <li><a href="#">Racing</a></li>
@@ -157,68 +196,7 @@
     </div>
    </div>
    <div class="col-xl-3 col-lg-4 col-md-5 sidebar">
-    <div id="stickySidebar">
-     <div class="widget-item">
-      <h4 class="widget-title">Trending</h4>
-      <div class="trending-widget">
-       <div class="tw-item">
-        <div class="tw-thumb">
-         <img src="<?=base_url('public/endgame/img/blog-widget/1.jpg') ?>" alt="#">
-        </div>
-        <div class="tw-text">
-         <div class="tw-meta">11.11.18  /  in <a href="">Games</a></div>
-         <h5>The best online game is out now!</h5>
-        </div>
-       </div>
-       <div class="tw-item">
-        <div class="tw-thumb">
-         <img src="<?=base_url('public/endgame/img/blog-widget/2.jpg') ?>" alt="#">
-        </div>
-        <div class="tw-text">
-         <div class="tw-meta">11.11.18  /  in <a href="">Games</a></div>
-         <h5>The best online game is out now!</h5>
-        </div>
-       </div>
-       <div class="tw-item">
-        <div class="tw-thumb">
-         <img src="<?=base_url('public/endgame/img/blog-widget/3.jpg') ?>" alt="#">
-        </div>
-        <div class="tw-text">
-         <div class="tw-meta">11.11.18  /  in <a href="">Games</a></div>
-         <h5>The best online game is out now!</h5>
-        </div>
-       </div>
-       <div class="tw-item">
-        <div class="tw-thumb">
-         <img src="<?=base_url('public/endgame/img/blog-widget/4.jpg') ?>" alt="#">
-        </div>
-        <div class="tw-text">
-         <div class="tw-meta">11.11.18  /  in <a href="">Games</a></div>
-         <h5>The best online game is out now!</h5>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="widget-item">
-      <div class="categories-widget">
-       <h4 class="widget-title">categories</h4>
-       <ul>
-        <li><a href="">Games</a></li>
-        <li><a href="">Gaming Tips & Tricks</a></li>
-        <li><a href="">Online Games</a></li>
-        <li><a href="">Team Games</a></li>
-        <li><a href="">Community</a></li>
-        <li><a href="">Uncategorized</a></li>
-       </ul>
-      </div>
-     </div>
-     <div class="widget-item">
-      <a href="#" class="add">
-       <img src="<?=base_url('public/endgame/img/add.jpg') ?>" alt="">
-      </a>
-     </div>
-    </div>
-   </div>
+
   </div>
  </div>
 </section>
@@ -227,11 +205,11 @@
 
 <!-- Intro section -->
 <section class="intro-video-section set-bg d-flex align-items-end " data-setbg="<?=base_url('public/endgame/img/promo-bg.jpg') ?>">
- <a href="https://www.youtube.com/watch?v=uFsGy5x_fyQ" class="video-play-btn video-popup"><img src="<?=base_url('public/endgame/img/icons/solid-right-arrow.png') ?>" alt="#"></a>
+ <a href="https://www.youtube.com/watch?v=w1Cm2laMXZ4" class="video-play-btn video-popup"><img src="<?=base_url('public/endgame/img/icons/solid-right-arrow.png') ?>" alt="#"></a>
  <div class="container">
   <div class="video-text">
-   <h2>Promo video of the game</h2>
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+   <h2>Infest 2018</h2>
+   <p>Ven y mira lo que vivimos el año pasado, recuerda que este año se nos vienen nuevas novedades</p>
   </div>
  </div>
 </section>
@@ -239,6 +217,7 @@
 
 
 <!-- Featured section -->
+<!--
 <section class="featured-section">
  <div class="featured-bg set-bg" data-setbg="<?=base_url('public/endgame/img/featured-bg.jpg') ?>"></div>
  <div class="featured-box">
@@ -250,6 +229,7 @@
   </div>
  </div>
 </section>
+-->
 <!-- Featured section end-->
 
 
@@ -257,10 +237,10 @@
 <!-- Newsletter section -->
 <section class="newsletter-section">
  <div class="container">
-  <h2>Subscribe to our newsletter</h2>
+  <h2>Recibe todas las novedades al suscribirte</h2>
   <form class="newsletter-form">
-   <input type="text" placeholder="ENTER YOUR E-MAIL">
-   <button class="site-btn">subscribe  <img src="<?=base_url('public/endgame/img/icons/double-arrow.png') ?>" alt="#"/></button>
+   <input type="text" placeholder="Ingresa tu correo">
+   <button class="site-btn">Suscribirse  <img src="<?=base_url('public/endgame/img/icons/double-arrow.png') ?>" alt="#"/></button>
   </form>
  </div>
 </section>
@@ -271,27 +251,24 @@
 <footer class="footer-section">
  <div class="container">
   <div class="footer-left-pic">
-   <img src="<?=base_url('public/endgame/img/footer-left-pic.png') ?>" alt="">
+   <!--<img src="<?=base_url('public/endgame/img/footer-left-pic.png') ?>" alt="">-->
   </div>
   <div class="footer-right-pic">
-   <img src="<?=base_url('public/endgame/img/footer-right-pic.png') ?>" alt="">
+      <!--<img src="<?=base_url('public/endgame/img/footer-right-pic.png') ?>" alt="">-->
   </div>
   <a href="#" class="footer-logo">
-   <img src="<?=base_url('public/endgame/img/logo.png') ?>" alt="">
+   <img src="<?=base_url('public/img/logon.png') ?>" alt="">
   </a>
   <ul class="main-menu footer-menu">
-   <li><a href="">Home</a></li>
-   <li><a href="">Games</a></li>
-   <li><a href="">Reviews</a></li>
-   <li><a href="">News</a></li>
-   <li><a href="">Contact</a></li>
+   <li><a href="">Inicio</a></li>
+   <li><a href="">Torneos</a></li>
+   <li><a href="">Patrocinadores</a></li>
+   <li><a href="">Colaboradores</a></li>
+   <li><a href="">Invitados</a></li>
   </ul>
   <div class="footer-social d-flex justify-content-center">
-   <a href="#"><i class="fa fa-pinterest"></i></a>
    <a href="#"><i class="fa fa-facebook"></i></a>
-   <a href="#"><i class="fa fa-twitter"></i></a>
-   <a href="#"><i class="fa fa-dribbble"></i></a>
-   <a href="#"><i class="fa fa-behance"></i></a>
+   <a href="#"><i class="fa fa-instagram"></i></a>
   </div>
   <div class="copyright"><a href="">Colorlib</a> 2018 @ All rights reserved</div>
  </div>
