@@ -70,7 +70,8 @@ $(window).on('load', function() {
 		Video Popup
 	--------------------*/
 	$('.video-popup').magnificPopup({
-  		type: 'iframe'
+  		type: 'iframe',
+
 	});
 
 	$('#stickySidebar').stickySidebar({

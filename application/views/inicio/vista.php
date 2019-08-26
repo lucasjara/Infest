@@ -19,8 +19,8 @@
  <div class="header-warp">
   <div class="header-social d-flex justify-content-end">
    <p>Siguenos:</p>
-   <a href="#"><i class="fa fa-facebook"></i></a>
-   <a href="#"><i class="fa fa-instagram"></i></a>
+   <a href="https://www.facebook.com/infesttarreoinacap"><i class="fa fa-facebook"></i></a>
+   <a href="https://www.instagram.com/infesttemuco/"><i class="fa fa-instagram"></i></a>
   </div>
   <div class="header-bar-warp d-flex">
    <!-- site logo -->
@@ -85,9 +85,9 @@
    <div class="col-md-4">
     <div class="intro-text-box text-box text-white">
      <div class="top-meta">Organizador</div>
-        <img src="<?=base_url('public/img/icons/double-arrow.png') ?>" alt="" height="100">
+        <img style="background-color: white;border-radius: 10px;" src="<?=base_url('public/img/E_S.png') ?>" alt="" height="100">
      <div class="top-meta">Auspiciador</div>
-        <img src="<?=base_url('public/img/icons/double-arrow.png') ?>" alt="" height="100">
+        <img style="background-color: white;border-radius: 10px;" src="<?=base_url('public/img/inacap.png') ?>" alt="" height="100">
     </div>
    </div>
    <div class="col-md-4">
@@ -102,16 +102,16 @@
             </ol>
             <div class="carousel-inner" style="background-color: white;border-radius: 10px;">
                 <div class="carousel-item active">
-                    <img height="200" src="<?=base_url('public/img/patrocinadores/winpy.png') ?>">
+                    <img height="250" src="<?=base_url('public/img/patrocinadores/winpy.png') ?>">
                 </div>
                 <div class="carousel-item">
-                    <img height="200" src="<?=base_url('public/img/patrocinadores/crossxgame.jpg') ?>" alt="Second slide">
+                    <img height="250" src="<?=base_url('public/img/patrocinadores/crossxgame.jpg') ?>" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img height="200" src="<?=base_url('public/img/patrocinadores/hostales_temuco.png') ?>" alt="Third slide">
+                    <img height="250" src="<?=base_url('public/img/patrocinadores/hostales_temuco.png') ?>" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img height="200" src="<?=base_url('public/img/patrocinadores/top8.png') ?>" alt="Third slide">
+                    <img height="250" src="<?=base_url('public/img/patrocinadores/top8.png') ?>" alt="Third slide">
                 </div>
             </div>
         </div>
@@ -129,16 +129,16 @@
             </ol>
             <div class="carousel-inner" style="background-color: white;border-radius: 10px;">
                 <div class="carousel-item active">
-                    <img height="200" src="<?=base_url('public/img/colaboradores/xpg.png') ?>">
+                    <img height="250" src="<?=base_url('public/img/colaboradores/xpg.png') ?>">
                 </div>
                 <div class="carousel-item">
-                    <img height="200" src="<?=base_url('public/img/colaboradores/redragon.png') ?>">
+                    <img height="250" src="<?=base_url('public/img/colaboradores/redragon.png') ?>">
                 </div>
                 <div class="carousel-item">
-                    <img height="200" src="<?=base_url('public/img/colaboradores/cougar.png') ?>">
+                    <img height="250" src="<?=base_url('public/img/colaboradores/cougar.png') ?>">
                 </div>
                 <div class="carousel-item">
-                    <img height="200" src="<?=base_url('public/img/colaboradores/ckeck_and_play.png') ?>">
+                    <img height="250" src="<?=base_url('public/img/colaboradores/ckeck_and_play.png') ?>">
                 </div>
             </div>
         </div>
@@ -177,8 +177,8 @@
 
 
 <!-- Intro section -->
-<section class="intro-video-section set-bg d-flex align-items-end " data-setbg="<?=base_url('public/endgame/img/promo-bg.jpg') ?>">
- <<a href="https://www.youtube.com/watch?v=w1Cm2laMXZ4" class="video-play-btn video-popup"><img src="<?=base_url('public/endgame/img/icons/solid-right-arrow.png') ?>" alt="#"></a>
+<section class="intro-video-section set-bg d-flex align-items-end " style="background-color: black;"> <!--data-setbg="<?=base_url('public/endgame/img/promo-bg.jpg') ?>" -->
+ <a href="https://www.youtube.com/embed/w1Cm2laMXZ4?autoplay=1&mute=1&enablejsapi=1" class="video-play-btn"><img src="<?=base_url('public/endgame/img/icons/solid-right-arrow.png') ?>" alt="#"></a>
  <div class="container">
   <div class="video-text">
    <h2>Infest 2018</h2>
@@ -240,8 +240,8 @@
    <li><a href="">Invitados</a></li>
   </ul>
   <div class="footer-social d-flex justify-content-center">
-   <a href="#"><i class="fa fa-facebook"></i></a>
-   <a href="#"><i class="fa fa-instagram"></i></a>
+   <a href="https://www.facebook.com/infesttarreoinacap"><i class="fa fa-facebook"></i></a>
+   <a href="https://www.instagram.com/infesttemuco"><i class="fa fa-instagram"></i></a>
   </div>
   <div class="copyright"><a href="">Colorlib</a> 2018 @ All rights reserved</div>
  </div>
