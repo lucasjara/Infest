@@ -30,3 +30,5 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 /tests/tests/
 /tests/results/
 public/video/infest_2018.mp4
+application/config/config.php
+application/config/database.php

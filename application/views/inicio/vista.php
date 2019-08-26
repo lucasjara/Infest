@@ -168,7 +168,7 @@
     <!-- Blog item -->
     <div class="blog-item">
         <!-- SnapWidget -->
-        <iframe src="https://snapwidget.com/embed/727403" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; height:330px"></iframe>
+        <iframe src="https://snapwidget.com/embed/727540" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; height:330px"></iframe>
     </div>
    </div>
  </div>
