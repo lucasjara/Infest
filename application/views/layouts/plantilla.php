@@ -47,37 +47,6 @@
 <div id="preloder">
     <div class="loader"></div>
 </div>
-
-<!-- Header section -->
-<header class="header-section">
-    <div class="header-warp">
-        <div class="header-social d-flex justify-content-end">
-            <p>Siguenos:</p>
-            <a href="https://www.facebook.com/infesttarreoinacap"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.instagram.com/infesttemuco/"><i class="fa fa-instagram"></i></a>
-        </div>
-        <div class="header-bar-warp d-flex">
-            <!-- site logo -->
-            <a href="home.html" class="site-logo" style="margin-top: -1%;">
-                <img src="<?=base_url('public/img/logon.png') ?>" alt="">
-            </a>
-            <nav class="top-nav-area w-100">
-                <div class="user-panel">
-                    <!--<a href="">Login</a><a href="">Register</a> -->
-                </div>
-                <!-- Menu -->
-                <ul class="main-menu primary-menu">
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Torneos</a></li>
-                    <li><a href="">Patrocinadores</a></li>
-                    <li><a href="">Colaboradores</a></li>
-                    <li><a href="">Invitados</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</header>
-<!-- Header section end -->
 <?php echo $content_for_layout; ?>
 <!-- Newsletter section -->
 <section class="newsletter-section">
@@ -103,7 +72,7 @@
             <img src="<?=base_url('public/img/logon.png') ?>" alt="">
         </a>
         <ul class="main-menu footer-menu">
-            <li><a href="">Inicio</a></li>
+            <li><a href="/">Inicio</a></li>
             <li><a href="">Torneos</a></li>
             <li><a href="">Patrocinadores</a></li>
             <li><a href="">Colaboradores</a></li>
@@ -124,5 +93,24 @@
 <script src="<?=base_url('public/endgame/js/jquery.sticky-sidebar.min.js') ?>"></script>
 <script src="<?=base_url('public/endgame/js/jquery.magnific-popup.min.js') ?>"></script>
 <script src="<?=base_url('public/endgame/js/main.js') ?>"></script>
+<!-- Inicio Modal Generico -->
+<div class="modal fade" id="modal_generico" tabindex="-1"
+     role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h3 id="titulo_modal_generico"></h3>
+            </div>
+            <div class="modal-body">
+                <h4 id="modal_generico_body"></h4>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Fin Modal Generico -->
 </body>
 </html>

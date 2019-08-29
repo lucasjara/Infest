@@ -6,6 +6,36 @@
  * Time: 22:50
  */
  ?>
+<!-- Header section -->
+<header class="header-section">
+    <div class="header-warp">
+        <div class="header-social d-flex justify-content-end">
+            <p>Siguenos:</p>
+            <a href="https://www.facebook.com/infesttarreoinacap"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/infesttemuco/"><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="header-bar-warp d-flex">
+            <!-- site logo -->
+            <a href="/" class="site-logo" style="margin-top: -1%;">
+                <img src="<?=base_url('public/img/logon.png') ?>" alt="">
+            </a>
+            <nav class="top-nav-area w-100">
+                <div class="user-panel">
+                    <a href="/Formulario">Formulario</a>
+                </div>
+                <!-- Menu -->
+                <ul class="main-menu primary-menu">
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="">Torneos</a></li>
+                    <li><a href="">Patrocinadores</a></li>
+                    <li><a href="">Colaboradores</a></li>
+                    <li><a href="">Invitados</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<!-- Header section end -->
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v4.0&appId=175772568581&autoLogAppEvents=1"></script>
 <!-- Hero section -->
@@ -23,19 +53,9 @@
     INACAP TEMUCO 12:00 HRS <br>
        </p>
        <h3 style="font-size: 60px;" class="text-white">ENTRADA LIBERADA</h3>
-   <!-- <a href="#" class="site-btn">Participar<img src="<?=base_url('public/endgame/img/icons/double-arrow.png') ?>" alt="#"/></a>
-   -->
    </div>
 
   </div>
-  <!--<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="<?=base_url('public/endgame/img/slider-bg-2.jpg') ?>">
-   <div class="container">
-    <h2>Game on!</h2>
-    <p>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor,<br>sit amet elementum lorem. Ut cursus tempor turpis.</p>
-    <a href="#" class="site-btn">Read More  <img src="<?=base_url('public/endgame/img/icons/double-arrow.png') ?>" alt="#"/></a>
-   </div>
-  </div>
-  -->
  </div>
 </section>
 <!-- Hero section end-->
@@ -152,20 +172,3 @@
  </div>
 </section>
 <!-- Intro section end -->
-
-
-<!-- Featured section -->
-<!--
-<section class="featured-section">
- <div class="featured-bg set-bg" data-setbg="<?=base_url('public/endgame/img/featured-bg.jpg') ?>"></div>
- <div class="featured-box">
-  <div class="text-box">
-   <div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
-   <h3>The game you’ve been waiting  for is out now</h3>
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum posuere porttitor justo id pellentesque. Proin id lacus feugiat, posuere erat sit amet, commodo ipsum. Donec pellentesque vestibulum metus...</p>
-   <a href="#" class="read-more">Read More  <img src="<?=base_url('public/endgame/img/icons/double-arrow.png') ?>" alt="#"/></a>
-  </div>
- </div>
-</section>
--->
-<!-- Featured section end-->
