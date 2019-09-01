@@ -30,4 +30,21 @@ class InicioModel extends CI_Model
         return $this->db->insert_id();
     }
 
+    public function ValidarUsuarioSistema($usuario,$password)
+    {
+        $this->db->select("*")
+            ->from('tb_usuarios_sistema')
+            ->where("USUARIO", $usuario)
+            ->where("PASSWORD", $password)
+            ->where("ACTIVO", "S");
+        $query = $this->db->get();
+        return ($query->num_rows() > 0) ? $query->result() : null;
+    }
+    public function ObtenerListadoUsuarios(){
+        $this->db->select("ID,NOMBRE,APELLIDOS,RUT,CORREO,EDAD,FECHA")
+            ->from('tb_usuarios_infest usuarios')
+        ->order_by('fecha DESC');
+        $query = $this->db->get();
+        return ($query->num_rows() > 0) ? $query->result() : null;
+    }
 }

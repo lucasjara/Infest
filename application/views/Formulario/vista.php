@@ -79,10 +79,6 @@
                     <div class="ci-text">Luis Durand 2150, Temuco, Región de la Araucanía</div>
                 </div>
                 <div class="cont-info">
-                    <div class="ci-icon"><img src="<?=base_url('public/endgame/img/icons/phone.png') ?>" alt=""></div>
-                    <div class="ci-text">+569 5938 3211</div>
-                </div>
-                <div class="cont-info">
                     <div class="ci-icon"><img src="<?=base_url('public/endgame/img/icons/mail.png') ?>" alt=""></div>
                     <div class="ci-text">informaciones@infest.cl</div>
                 </div>
@@ -91,6 +87,44 @@
     </div>
 </section>
 <!-- Contact page end-->
+<!-- Newsletter section -->
+<section class="newsletter-section">
+    <div class="container">
+        <h2>Recibe todas las novedades al suscribirte</h2>
+        <form class="newsletter-form">
+            <input type="text" placeholder="Ingresa tu correo">
+            <button class="site-btn">Suscribirse  <img src="<?=base_url('public/endgame/img/icons/double-arrow.png') ?>" alt="#"/></button>
+        </form>
+    </div>
+</section>
+<!-- Newsletter section end -->
+<!-- Footer section -->
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-left-pic">
+            <!--<img src="<?=base_url('public/endgame/img/footer-left-pic.png') ?>" alt="">-->
+        </div>
+        <div class="footer-right-pic">
+            <!--<img src="<?=base_url('public/endgame/img/footer-right-pic.png') ?>" alt="">-->
+        </div>
+        <a href="#" class="footer-logo">
+            <img src="<?=base_url('public/img/logon.png') ?>" alt="">
+        </a>
+        <ul class="main-menu footer-menu">
+            <li><a href="/">Inicio</a></li>
+            <li><a href="">Torneos</a></li>
+            <li><a href="">Patrocinadores</a></li>
+            <li><a href="">Colaboradores</a></li>
+            <li><a href="">Invitados</a></li>
+        </ul>
+        <div class="footer-social d-flex justify-content-center">
+            <a href="https://www.facebook.com/infesttarreoinacap"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/infesttemuco"><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="copyright"><a href="">Colorlib</a> 2018 @ All rights reserved</div>
+    </div>
+</footer>
+<!-- Footer section end -->
 <script>
     $(document).ready(function () {
 // Variables Globales
