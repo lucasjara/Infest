@@ -21,7 +21,7 @@
             </a>
             <nav class="top-nav-area w-100">
                 <div class="user-panel">
-                    <a href="/Formulario">Formulario</a>
+                    <a href="/Formulario">Formulario Asistentes</a>
                 </div>
                 <!-- Menu -->
                 <ul class="main-menu primary-menu">
@@ -43,7 +43,7 @@
  <div class="hero-slider owl-carousel">
   <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" id="id_contenido" data-setbg="<?=base_url('public/img/fondo_libre.jpg') ?>" >
    <div class="container">
-    <h2><img src="<?=base_url('public/img/logo_infest_recor.png') ?>" height="300" width="100"></h2>
+    <h2><img src="<?=base_url('public/img/logo_infest.png') ?>" height="300"></h2>
     <p class="text-white" style="margin-bottom: 0px;">
         EL EVENTO DE TECNOLOGIA Y VIDEOJUEGOS MAS GRANDE DEL<br>
         SUR DE CHILE VUELVE EN UNA CUARTA EDICION
@@ -52,7 +52,7 @@
     05 Y 06 DE OCTUBRE <br>
     INACAP TEMUCO 12:00 HRS <br>
        </p>
-       <h3 style="font-size: 60px;" class="text-white">ENTRADA LIBERADA</h3>
+       <h3 style="font-size: 80px;" class="text-white">ENTRADA LIBERADA</h3>
    </div>
 
   </div>
@@ -65,15 +65,14 @@
   <div class="row" style="text-align: center;">
    <div class="col-md-4">
     <div class="intro-text-box text-box text-white">
-     <div class="top-meta">Organizador</div>
-        <img style="background-color: white;border-radius: 10px;" src="<?=base_url('public/img/E_S.png') ?>" alt="" height="100">
-     <div class="top-meta">Auspiciador</div>
-        <img style="background-color: white;border-radius: 10px;" src="<?=base_url('public/img/inacap.png') ?>" alt="" height="100">
+     <div class="top-meta">Organiza</div>
+        <img src="<?=base_url('public/img/E_S.png') ?>" alt="" height="100">
+        <img src="<?=base_url('public/img/inacap.png') ?>" alt="" height="100">
     </div>
    </div>
    <div class="col-md-4">
     <div class="intro-text-box text-box text-white">
-     <div class="top-meta">Patrocinadores</div>
+     <div class="top-meta">Patrocina</div>
         <div id="carouselExampleIndicators" class="carousel" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -81,7 +80,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             </ol>
-            <div class="carousel-inner" style="background-color: white;border-radius: 10px;">
+            <div class="carousel-inner" >
                 <div class="carousel-item active">
                     <img height="250" src="<?=base_url('public/img/patrocinadores/winpy.png') ?>">
                 </div>
@@ -100,7 +99,7 @@
    </div>
    <div class="col-md-4">
     <div class="intro-text-box text-box text-white">
-     <div class="top-meta">Colaboradores</div>
+     <div class="top-meta">Colabora</div>
         <div id="carouselExampleIndicators2" class="carousel" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
@@ -108,7 +107,7 @@
                 <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
                 <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
             </ol>
-            <div class="carousel-inner" style="background-color: white;border-radius: 10px;">
+            <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img height="250" src="<?=base_url('public/img/colaboradores/xpg.png') ?>">
                 </div>
@@ -132,7 +131,7 @@
 <script>
     $ (document).ready(function () {
         $('.carousel').carousel({
-            interval: 2000
+
         });
     });
 </script>

@@ -31,7 +31,7 @@
             </a>
             <nav class="top-nav-area w-100">
                 <div class="user-panel">
-                    <a href="/Formulario">Formulario</a>
+                    <a href="/Formulario">Formulario Asistentes</a>
                 </div>
                 <!-- Menu -->
                 <ul class="main-menu primary-menu">
@@ -45,10 +45,10 @@
 <!-- Page top section -->
 <section class="page-top-section set-bg" data-setbg="<?=base_url('public/img/fondo_libre.jpg') ?>">
     <div class="page-info">
-        <h2>Formulario</h2>
+        <h2>Formulario Asistentes</h2>
         <div class="site-breadcrumb">
             <a href="">Inicio</a>  /
-            <span>Formulario</span>
+            <span>Formulario Asistentes 2019</span>
         </div>
     </div>
 </section>
