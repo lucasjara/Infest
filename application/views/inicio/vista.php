@@ -26,10 +26,10 @@
                 <!-- Menu -->
                 <ul class="main-menu primary-menu">
                     <li><a href="/">Inicio</a></li>
-                    <li><a href="">Torneos</a></li>
-                    <li><a href="">Patrocinadores</a></li>
-                    <li><a href="">Colaboradores</a></li>
-                    <li><a href="">Invitados</a></li>
+                    <!--<li><a href="">Torneos</a></li>-->
+                    <li><a href="/Patrocinadores">Patrocinadores</a></li>
+                    <li><a href="/Colaboradores">Colaboradores</a></li>
+                    <!--<li><a href="">Invitados</a></li>-->
                 </ul>
             </nav>
         </div>
@@ -66,7 +66,7 @@
    <div class="col-md-4">
     <div class="intro-text-box text-box text-white">
      <div class="top-meta">Organiza</div>
-        <img src="<?=base_url('public/img/E_S.png') ?>" alt="" height="100">
+        <img src="<?=base_url('public/img/E-STUDENTS.png') ?>" alt="" height="180">
         <img src="<?=base_url('public/img/inacap.png') ?>" alt="" height="100">
     </div>
    </div>
@@ -88,7 +88,7 @@
                     <img height="250" src="<?=base_url('public/img/patrocinadores/crossxgame.jpg') ?>" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img height="250" src="<?=base_url('public/img/patrocinadores/hostales_temuco.png') ?>" alt="Third slide">
+                    <img height="250" src="<?=base_url('public/img/patrocinadores/HOSTALES TEMUCO.png') ?>" alt="Third slide">
                 </div>
                 <div class="carousel-item">
                     <img height="250" src="<?=base_url('public/img/patrocinadores/top8.png') ?>" alt="Third slide">
@@ -112,13 +112,13 @@
                     <img height="250" src="<?=base_url('public/img/colaboradores/xpg.png') ?>">
                 </div>
                 <div class="carousel-item">
-                    <img height="250" src="<?=base_url('public/img/colaboradores/redragon.png') ?>">
+                    <img height="250" src="<?=base_url('public/img/colaboradores/REDRAGON.png') ?>">
                 </div>
                 <div class="carousel-item">
-                    <img height="250" src="<?=base_url('public/img/colaboradores/cougar.png') ?>">
+                    <img height="250" src="<?=base_url('public/img/colaboradores/COUGAR.png') ?>">
                 </div>
                 <div class="carousel-item">
-                    <img height="250" src="<?=base_url('public/img/colaboradores/ckeck_and_play.png') ?>">
+                    <img height="250" src="<?=base_url('public/img/colaboradores/CHECK AND PLAY BLANCO.png') ?>">
                 </div>
             </div>
         </div>

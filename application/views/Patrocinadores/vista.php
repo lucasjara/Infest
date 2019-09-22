@@ -93,6 +93,9 @@
             <div class="col-md-4">
                 <img src="<?= base_url('public/img/patrocinadores/ISO02.png') ?>" width="100%" height="225">
             </div>
+            <div class="col-md-4">
+                <img src="<?= base_url('public/img/patrocinadores/EVERIS.png') ?>" width="100%" height="225">
+            </div>
         </div>
     </div>
 </section>
