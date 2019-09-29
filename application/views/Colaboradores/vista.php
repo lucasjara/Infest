@@ -69,90 +69,89 @@
 <!-- Contact page -->
 <section class="contact-page">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center align-self-center">
             <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/ALLTEC.png') ?>" width="100%" height="225">
+                <img src="<?= base_url('public/img/colaboradores/ALLTEC.png') ?>"  >
             </div>
             <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/AMD.png') ?>" width="100%" height="225">
+                <img src="<?= base_url('public/img/colaboradores/AMD.png') ?>"  >
             </div>
             <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/ARCADE UCT.png') ?>" width="100%" height="225">
+                <img src="<?= base_url('public/img/colaboradores/ARCADE UCT.png') ?>"  >
             </div>
             <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/BALLISTIX.png') ?>" width="100%" height="225">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/CHECK AND PLAY BLANCO.png') ?>" width="100%" height="225">
-            </div>
-            <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/COSPLAY BATTLE.png') ?>" width="100%" height="225">
-            </div>
-            <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/COUGAR.png') ?>" width="100%" height="225">
-            </div>
-            <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/DRAGSTER.png') ?>" width="100%" height="225">
+                <img src="<?= base_url('public/img/colaboradores/BALLISTIX.png') ?>"  >
             </div>
         </div>
-        <div class="row" style="margin-top: 1%;">
+        <div class="row justify-content-center align-self-center">
             <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/DRONESCAN.png') ?>" width="100%" height="225">
+                <img src="<?= base_url('public/img/colaboradores/CHECK AND PLAY BLANCO.png') ?>"  >
             </div>
             <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/FANTECH.png') ?>" width="100%" height="225">
+                <img src="<?= base_url('public/img/colaboradores/COSPLAY BATTLE.png') ?>"  >
             </div>
             <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/FRENTE SUR.png') ?>" width="100%" height="225">
+                <img src="<?= base_url('public/img/colaboradores/COUGAR.png') ?>"  >
             </div>
             <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/HIT.png') ?>" width="100%" height="225">
+                <img src="<?= base_url('public/img/colaboradores/DRAGSTER.png') ?>"  >
             </div>
         </div>
-        <div class="row" style="margin-top: 1%;">
+        <div class="row justify-content-center align-self-center">
             <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/INFIGHT.png') ?>" width="100%" height="225">
+                <img src="<?= base_url('public/img/colaboradores/DRONESCAN.png') ?>"  >
             </div>
             <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/INJUV.png') ?>" width="100%" height="225">
+                <img src="<?= base_url('public/img/colaboradores/FANTECH.png') ?>"  >
+            </div>
+            <div class="col-md-3">
+                <img src="<?= base_url('public/img/colaboradores/FRENTE SUR.png') ?>"  >
+            </div>
+            <div class="col-md-3">
+                <img src="<?= base_url('public/img/colaboradores/HIT.png') ?>"  >
+            </div>
+        </div>
+        <div class="row justify-content-center align-self-center">
+            <div class="col-md-3">
+                <img src="<?= base_url('public/img/colaboradores/INFIGHT.png') ?>"  >
+            </div>
+            <div class="col-md-3">
+                <img src="<?= base_url('public/img/colaboradores/INJUV.png') ?>"  >
+            </div>
+            <div class="col-md-3">
+                <img src="<?= base_url('public/img/colaboradores/KALEIDO PRODUCCIONES.png') ?>"  >
+            </div>
+            <div class="col-md-3">
+                <img src="<?= base_url('public/img/colaboradores/LG.png') ?>"  >
+            </div>
+        </div>
+        <div class="row justify-content-center align-self-center">
+            <div class="col-md-3">
+                <img src="<?= base_url('public/img/colaboradores/MSI LATERAL NEGRO.png') ?>" >
+            </div>
+            <div class="col-md-3">
+                <img src="<?= base_url('public/img/colaboradores/PROTOCORGI ANCHO.png') ?>"  >
+            </div>
+            <div class="col-md-3">
+                <img src="<?= base_url('public/img/colaboradores/PUNTO DE EXPERIENCIA.png') ?>" >
+            </div>
+            <div class="col-md-3">
+                <img src="<?= base_url('public/img/colaboradores/REDRAGON.png') ?>"  >
+            </div>
+        </div>
+        <div class="row justify-content-center align-self-center">
+            <div class="col-md-3">
+                <img src="<?= base_url('public/img/colaboradores/SAMSUG.png') ?>" >
+            </div>
+            <div class="col-md-3">
+                <img src="<?= base_url('public/img/colaboradores/THERMALTAKE.png') ?>" >
+            </div>
+            <div class="col-md-3">
+                <img src="<?= base_url('public/img/colaboradores/TIER1.png') ?>" >
             </div>
 
             <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/KALEIDO PRODUCCIONES.png') ?>" width="100%" height="225">
-            </div>
-            <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/LG.png') ?>" width="100%" height="225">
-            </div>
-        </div>
-        <div class="row" style="margin-top: 1%;">
-            <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/MSI LATERAL NEGRO.png') ?>" width="100%" height="225">
-            </div>
-            <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/PROTOCORGI ANCHO.png') ?>" width="100%" height="225">
-            </div>
-            <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/PUNTO DE EXPERIENCIA.png') ?>" width="100%" height="225">
-            </div>
-            <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/REDRAGON.png') ?>" width="100%" height="225">
-            </div>
-        </div>
-        <div class="row" style="margin-top: 1%;">
-            <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/SAMSUG.png') ?>" width="100%" height="225">
-            </div>
-            <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/THERMALTAKE.png') ?>" width="100%" height="225">
-            </div>
-            <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/TIER1.png') ?>" width="100%" height="225">
-            </div>
-
-            <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/xpg.png') ?>" width="100%" height="225">
+                <img src="<?= base_url('public/img/colaboradores/xpg.png') ?>" >
             </div>
         </div>
     </div>

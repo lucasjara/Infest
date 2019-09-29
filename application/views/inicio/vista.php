@@ -29,7 +29,7 @@
                     <!--<li><a href="">Torneos</a></li>-->
                     <li><a href="/Patrocinadores">Patrocinadores</a></li>
                     <li><a href="/Colaboradores">Colaboradores</a></li>
-                    <!--<li><a href="">Invitados</a></li>-->
+                    <!--<li><a href="/Invitados">Invitados</a></li>-->
                 </ul>
             </nav>
         </div>
@@ -67,7 +67,7 @@
     <div class="intro-text-box text-box text-white">
      <div class="top-meta">Organiza</div>
         <img src="<?=base_url('public/img/E-STUDENTS.png') ?>" alt="" height="180">
-        <img src="<?=base_url('public/img/inacap.png') ?>" alt="" height="100">
+        <img src="<?=base_url('public/img/inacap.png') ?>" alt="" height="80">
     </div>
    </div>
    <div class="col-md-4">
@@ -82,10 +82,11 @@
             </ol>
             <div class="carousel-inner" >
                 <div class="carousel-item active">
-                    <img height="250" src="<?=base_url('public/img/patrocinadores/winpy.png') ?>">
+                    <img height="250" src="<?=base_url('public/img/patrocinadores/cross.png') ?>" >
+
                 </div>
                 <div class="carousel-item">
-                    <img height="250" src="<?=base_url('public/img/patrocinadores/CROSSXGAME.png') ?>" alt="Second slide">
+                    <img height="250" src="<?=base_url('public/img/patrocinadores/winpy.png') ?>" alt="Second slide">
                 </div>
                 <div class="carousel-item">
                     <img height="250" src="<?=base_url('public/img/patrocinadores/HOSTALES TEMUCO.png') ?>" alt="Third slide">
