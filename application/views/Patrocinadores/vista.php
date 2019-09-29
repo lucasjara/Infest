@@ -47,6 +47,8 @@
                 <!-- Menu -->
                 <ul class="main-menu primary-menu">
                     <li><a href="/">Inicio</a></li>
+                    <li><a href="/Patrocinadores">Patrocinadores</a></li>
+                    <li><a href="/Colaboradores">Colaboradores</a></li>
                 </ul>
             </nav>
         </div>

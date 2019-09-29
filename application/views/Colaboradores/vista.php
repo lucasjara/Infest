@@ -47,6 +47,8 @@
                 <!-- Menu -->
                 <ul class="main-menu primary-menu">
                     <li><a href="/">Inicio</a></li>
+                    <li><a href="/Patrocinadores">Patrocinadores</a></li>
+                    <li><a href="/Colaboradores">Colaboradores</a></li>
                 </ul>
             </nav>
         </div>
@@ -129,19 +131,16 @@
                 <img src="<?= base_url('public/img/colaboradores/MSI LATERAL NEGRO.png') ?>" width="100%" height="225">
             </div>
             <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/NEMORIS GAMES.png') ?>" width="100%" height="225">
-            </div>
-            <div class="col-md-3">
                 <img src="<?= base_url('public/img/colaboradores/PROTOCORGI ANCHO.png') ?>" width="100%" height="225">
             </div>
             <div class="col-md-3">
                 <img src="<?= base_url('public/img/colaboradores/PUNTO DE EXPERIENCIA.png') ?>" width="100%" height="225">
             </div>
-        </div>
-        <div class="row" style="margin-top: 1%;">
             <div class="col-md-3">
                 <img src="<?= base_url('public/img/colaboradores/REDRAGON.png') ?>" width="100%" height="225">
             </div>
+        </div>
+        <div class="row" style="margin-top: 1%;">
             <div class="col-md-3">
                 <img src="<?= base_url('public/img/colaboradores/SAMSUG.png') ?>" width="100%" height="225">
             </div>
@@ -151,11 +150,7 @@
             <div class="col-md-3">
                 <img src="<?= base_url('public/img/colaboradores/TIER1.png') ?>" width="100%" height="225">
             </div>
-        </div>
-        <div class="row"  style="margin-top: 1%;">
-            <div class="col-md-3">
-                <img src="<?= base_url('public/img/colaboradores/TMT Format Gold.png') ?>" width="100%" height="225">
-            </div>
+
             <div class="col-md-3">
                 <img src="<?= base_url('public/img/colaboradores/xpg.png') ?>" width="100%" height="225">
             </div>

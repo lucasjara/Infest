@@ -17,7 +17,7 @@
         <div class="header-bar-warp d-flex">
             <!-- site logo -->
             <a href="/" class="site-logo" style="margin-top: -1%;">
-                <img src="<?=base_url('public/img/logon.png') ?>" alt="">
+                <img src="<?=base_url('public/img/logo_infest.png') ?>" style="height: 60px;">
             </a>
             <nav class="top-nav-area w-100">
                 <div class="user-panel">
@@ -43,8 +43,8 @@
  <div class="hero-slider owl-carousel">
   <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" id="id_contenido" data-setbg="<?=base_url('public/img/fondo_libre.jpg') ?>" >
    <div class="container">
-    <h2><img src="<?=base_url('public/img/logo_infest.png') ?>" height="300"></h2>
-    <p class="text-white" style="margin-bottom: 0px;">
+    <img src="<?=base_url('public/img/logo_infest.png') ?>" class="rounded mx-auto d-block" style="height: 400px;">
+    <p class="text-white" style="margin-bottom: 0px;position: relative;">
         EL EVENTO DE TECNOLOGIA Y VIDEOJUEGOS MAS GRANDE DEL<br>
         SUR DE CHILE VUELVE EN UNA CUARTA EDICION
         <br>
@@ -85,13 +85,13 @@
                     <img height="250" src="<?=base_url('public/img/patrocinadores/winpy.png') ?>">
                 </div>
                 <div class="carousel-item">
-                    <img height="250" src="<?=base_url('public/img/patrocinadores/crossxgame.jpg') ?>" alt="Second slide">
+                    <img height="250" src="<?=base_url('public/img/patrocinadores/CROSSXGAME.png') ?>" alt="Second slide">
                 </div>
                 <div class="carousel-item">
                     <img height="250" src="<?=base_url('public/img/patrocinadores/HOSTALES TEMUCO.png') ?>" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img height="250" src="<?=base_url('public/img/patrocinadores/top8.png') ?>" alt="Third slide">
+                    <img height="250" src="<?=base_url('public/img/patrocinadores/TOP 8.png') ?>" alt="Third slide">
                 </div>
             </div>
         </div>
