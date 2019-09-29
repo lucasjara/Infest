@@ -16,6 +16,15 @@ class InicioModel extends CI_Model
         $query = $this->db->get();
         return ($query->num_rows() > 0) ? $query->result() : null;
     }
+    public function validar_rut_workshops($rut,$tipo)
+    {
+        $this->db->select("*")
+            ->from('tb_usuarios_workshops usuarios')
+            ->where("usuarios.RUT", $rut)
+            ->where("usuarios.TIPO", $tipo);
+        $query = $this->db->get();
+        return ($query->num_rows() > 0) ? $query->result() : null;
+    }
 
     public function ingresar_usuarios_tarreo($nombres, $apellidos, $correo, $rut, $universidad, $carrera, $edad, $juego) {
         $this->db->set('NOMBRE', strtoupper($nombres));
@@ -29,7 +38,15 @@ class InicioModel extends CI_Model
         $this->db->insert("tb_usuarios_infest");
         return $this->db->insert_id();
     }
-
+    public function ingresar_usuarios_workshop($nombres, $apellidos, $correo, $rut,$tipo) {
+        $this->db->set('NOMBRE', strtoupper($nombres));
+        $this->db->set('APELLIDOS', strtoupper($apellidos));
+        $this->db->set('RUT', strtoupper($rut));
+        $this->db->set('CORREO', strtoupper($correo));
+        $this->db->set('TIPO', $tipo);
+        $this->db->insert("tb_usuarios_workshops");
+        return $this->db->insert_id();
+    }
     public function ValidarUsuarioSistema($usuario,$password)
     {
         $this->db->select("*")

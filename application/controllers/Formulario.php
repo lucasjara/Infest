@@ -20,6 +20,11 @@ class Formulario extends CI_Controller
         $this->layout->setLayout("plantilla");
         $this->layout->view('vista');
     }
+    public function Workshops()
+    {
+        $this->layout->setLayout("plantilla");
+        $this->layout->view('workshops');
+    }
     public function RegistroUsuarios()
     {
         $mensaje = new stdClass();
@@ -50,7 +55,50 @@ class Formulario extends CI_Controller
                         }
                     } else {
                         $mensaje->respuesta = 'N';
-                        $mensaje->data = "El Rut ya se encuentra registrado.";
+                        $mensaje->data = "El Rut ya se encuentra registrado como Asistente.";
+                    }
+                } else {
+                    $mensaje->respuesta = 'N';
+                    $mensaje->data = "El Rut ingresado no es valido.";
+                }
+            } else {
+                $mensaje->respuesta = 'N';
+                $mensaje->data = validation_errors();
+            }
+        } else {
+            $mensaje->respuesta = 'N';
+            $mensaje->data = 'Error al Enviar';
+        }
+        $this->output->set_content_type('application/json')->set_output(json_encode($mensaje));
+    }
+    public function RegistroWorkshops()
+    {
+        $mensaje = new stdClass();
+        $this->load->model("/InicioModel");
+        if ($this->input->post()) {
+            $this->validar_usuario_workshops();
+            if ($this->form_validation->run() != false) {
+                $nombres = $this->input->post('nombre');
+                $apellidos = $this->input->post('apellidos');
+                $correo = $this->input->post('correo');
+                $rut = $this->input->post('rut');
+                $tipo = $this->input->post('tipo');
+                // Validamos el rut tenga el Formato Correcto
+                if ($this->valida_rut($rut)) {
+                    // Validamos el Rut Este ya Registrado
+                    $valor = $this->InicioModel->validar_rut_workshops($rut,$tipo);
+                    if ($valor == null) {
+                        $datos = $this->InicioModel->ingresar_usuarios_workshop($nombres, $apellidos, $correo, $rut, $tipo);
+                        if ($datos != null) {
+                            $mensaje->respuesta = 'S';
+                            $mensaje->data = $datos;
+                        } else {
+                            $mensaje->respuesta = 'N';
+                            $mensaje->data = "Error al registrar.";
+                        }
+                    } else {
+                        $mensaje->respuesta = 'N';
+                        $mensaje->data = "El Rut ya se encuentra registrado en el Workshop.";
                     }
                 } else {
                     $mensaje->respuesta = 'N';
@@ -77,6 +125,16 @@ class Formulario extends CI_Controller
         $this->form_validation->set_rules("universidad", "Universidad / Liceo", "required|max_length[255]");
         $this->form_validation->set_rules("carrera", "Carrera / Curso", "required|max_length[255]");
         $this->form_validation->set_rules("edad", "Edad", "required|is_numeric");
+        $this->form_validation->set_message('required', 'El %s es obligatorio');
+        $this->form_validation->set_message('is_numeric', 'La %s que ingreso debe ser numerico');
+    }
+    private function validar_usuario_workshops()
+    {
+        $this->form_validation->set_rules("nombre", "Nombre", "required|max_length[255]");
+        $this->form_validation->set_rules("apellidos", "Apellidos", "required|max_length[255]");
+        $this->form_validation->set_rules("correo", "Correo", "required|max_length[255]");
+        $this->form_validation->set_rules("rut", "Rut", "required|max_length[255]");
+        $this->form_validation->set_rules("tipo", "Tipo Workshop", "required|is_numeric");
         $this->form_validation->set_message('required', 'El %s es obligatorio');
         $this->form_validation->set_message('is_numeric', 'La %s que ingreso debe ser numerico');
     }
